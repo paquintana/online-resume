@@ -204,7 +204,7 @@ skill:
         - Python
         - Java
         - Powershell
-    - name: Virtualization & Containers
+    - name: Virtualization/Containers
       item:
         - Kubernetes (EKS, AKS)
         - Kustomize
