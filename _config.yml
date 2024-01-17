@@ -6,7 +6,7 @@ baseurl: https://paquintana.github.io/
 # Sass setting
 sass:
   sass_dir: _sass
-  style:    default
+  style: compressed
 
 # Custom
 lang: en

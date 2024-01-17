@@ -1,187 +1,178 @@
 basic:
-  name: Foo Bar                      # name
-  title: Backend Developer           # job title
+  name: Pablo Quintana               # name
+  title: Software Engineer           # job title
   avatar:
     show: true                       # show or hide avatar
     path: /assets/images/profile.png # avatar file path
 
 contact:
   # meta
-  location: Beijing, China # location
-  email: me@example.com    # email address
-  phone: +86-111-2222-3333 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  website: example.com     # site URL without schema, like example.com, will automatically prepand "https://"
+  location: Buenos Aires, Argentina # location
+  email: pablobhn@gmail.com    # email address
+  phone: +54-011-5747-9011 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  # website: example.com     # site URL without schema, like example.com, will automatically prepand "https://"
 
-  gender:                  # gender or pronoun
-  birthday:                # birthday
-  nationality:             # nationality
-  visa:                    # passport visa
-  drivinglicense:          # driving licence
+  # gender:                  # gender or pronoun
+  # birthday:                # birthday
+  # nationality:             # nationality
+  # visa:                    # passport visa
+  # drivinglicense:          # driving licence
 
   # contact
-  wechat:                  # username
-  whatsapp:                # 8611122223333     | https://wa.me/8611122223333
-  telegram:                # username          | https://t.me/username
-  messenger:               # username          | https://m.me/username
-  line:                    # lineid            | https://line.me/R/ti/p/@lineid
-  viber:                   # username          | https://vb.me/username
-  threema:                 # userid            | https://threema.id/userid
+  # wechat:                  # username
+  # whatsapp:                # 8611122223333     | https://wa.me/8611122223333
+  # telegram:                # username          | https://t.me/username
+  # messenger:               # username          | https://m.me/username
+  # line:                    # lineid            | https://line.me/R/ti/p/@lineid
+  # viber:                   # username          | https://vb.me/username
+  # threema:                 # userid            | https://threema.id/userid
 
   # programmer
-  github:                  # username          | https://github.com/username
-  gitlab:                  # username          | https://gitlab.com/username
-  bitbucket:               # username          | https://bitbucket.com/username
-  stackoverflow:           # id or id/username | https://stackoverflow.com/users/id/username
-  leetcode:                # username          | https://leetcode.com/username
-  codeforces:              # username          | https://codeforces.com/profile/username
-  codewars:                # username          | https://www.codewars.com/users/username
-  codepen:                 # username          | https://codepen.io/username
-  tryhackme:               # username          | https://tryhackme.com/p/username
+  # github:                  # username          | https://github.com/username
+  # gitlab:                  # username          | https://gitlab.com/username
+  # bitbucket:               # username          | https://bitbucket.com/username
+  # stackoverflow:           # id or id/username | https://stackoverflow.com/users/id/username
+  # leetcode:                # username          | https://leetcode.com/username
+  # codeforces:              # username          | https://codeforces.com/profile/username
+  # codewars:                # username          | https://www.codewars.com/users/username
+  # codepen:                 # username          | https://codepen.io/username
+  # tryhackme:               # username          | https://tryhackme.com/p/username
 
   # academic
-  googlescholar:           # username          | https://scholar.google.com/citations?user=username
-  researchgate:            # username          | https://www.researchgate.net/profile/username
-  kaggle:                  # username          | https://www.kaggle.com/username
-  orcid:                   # id                | https://orcid.org/id
-  figshare:                # name/id           | https://figshare.com/authors/name/id
+  # googlescholar:           # username          | https://scholar.google.com/citations?user=username
+  # researchgate:            # username          | https://www.researchgate.net/profile/username
+  # kaggle:                  # username          | https://www.kaggle.com/username
+  # orcid:                   # id                | https://orcid.org/id
+  # figshare:                # name/id           | https://figshare.com/authors/name/id
 
   # writer
-  devto:                   # username          | https://dev.to/username
-  medium:                  # username          | https://medium.com/@username
-  wordpress:               # username          | https://username.wordpress.com
-  blogger:                 # username          | https://username.blogspot.com
-  wikipedia:               # username          | https://www.wikipedia.org/wiki/User:username
+  # devto:                   # username          | https://dev.to/username
+  # medium:                  # username          | https://medium.com/@username
+  # wordpress:               # username          | https://username.wordpress.com
+  # blogger:                 # username          | https://username.blogspot.com
+  # wikipedia:               # username          | https://www.wikipedia.org/wiki/User:username
 
   # designer
-  figma:                   # username          | https://www.figma.com/@username
-  behance:                 # username          | https://www.behance.net/username
-  dribble:                 # username          | https://dribbble.com/username
-  artstation:              # username          | https://www.artstation.com/username
+  # figma:                   # username          | https://www.figma.com/@username
+  # behance:                 # username          | https://www.behance.net/username
+  # dribble:                 # username          | https://dribbble.com/username
+  # artstation:              # username          | https://www.artstation.com/username
 
   # other cv
   linkedin:                # username          | https://linkedin.com/in/username
-  indeed:                  # resumeid          | https://my.indeed.com/p/resumeid
-  xing:                    # username          | https://www.xing.com/profile/username
-  fiverr:                  # username          | https://www.fiverr.com/username
-  freelancer:              # username          | https://www.freelancer.com/u/username
+  # indeed:                  # resumeid          | https://my.indeed.com/p/resumeid
+  # xing:                    # username          | https://www.xing.com/profile/username
+  # fiverr:                  # username          | https://www.fiverr.com/username
+  # freelancer:              # username          | https://www.freelancer.com/u/username
 
   # social media
-  twitter:                 # username          | https://twitter.com/username
-  mastodon:                # username@server
-  instagram:               # username          | https://instagram.com/username
-  unsplash:                # username          | https://unsplash.com/@username
-  _500px:                  # username          | https://500px.com/p/username
-  youtube:                 # username          | https://www.youtube.com/@username
-  tiktok:                  # username          | https://www.tiktok.com/@username
-  quora:                   # username          | https://www.quora.com/profile/username
-  zhihu:                   # username          | https://www.zhihu.com/people/username
-  goodreads:               # username          | https://www.goodreads.com/user/show/username
-  strava:                  # useid             | https://www.strava.com/athletes/userid
+  # twitter:                 # username          | https://twitter.com/username
+  # mastodon:                # username@server
+  # instagram:               # username          | https://instagram.com/username
+  # unsplash:                # username          | https://unsplash.com/@username
+  # _500px:                  # username          | https://500px.com/p/username
+  # youtube:                 # username          | https://www.youtube.com/@username
+  # tiktok:                  # username          | https://www.tiktok.com/@username
+  # quora:                   # username          | https://www.quora.com/profile/username
+  # zhihu:                   # username          | https://www.zhihu.com/people/username
+  # goodreads:               # username          | https://www.goodreads.com/user/show/username
+  # strava:                  # useid             | https://www.strava.com/athletes/userid
 
 profile:
   show: true
   order: 1
-  title: Profile
+  title: About
   description: |
-    The profile section in a resume is a brief summary of the applicant's skills, qualifications, and experience. The purpose of this section is to provide a snapshot of the applicant's professional background and highlight their most relevant accomplishments and strengths. It may include information such as the applicant's career objectives, years of experience, areas of expertise, and key achievements.
-
-    A well-crafted profile section can help to grab the attention of potential employers and encourage them to read on and learn more about the applicant's qualifications and experience.
+    I'm an IT professional with a broad range of technical skills and almost 9 years of experience in various roles such as DevOps Engineer, Tech Lead, and Cloud Architect. I consider myself to be proactive, resourceful, and I'm up to new challenges, willing to contribute to innovative products.
 
 experience:
   show: true
   order: 2
-  title: Experiences
+  title: Experience
   description: |
-    The experiences section in a resume is a section where you list your previous work experiences and accomplishments. It typically includes information about your previous job titles, companies you worked for, the dates of your employment, and your key responsibilities and achievements in each role. This section is important because it gives potential employers a sense of your work history and the skills and expertise you have developed over time. It can also help demonstrate your ability to contribute value to a new organization based on your past achievements.
+    Work experiences
 
   items:
-    - company: Second Company
+    - company: PwC
       link: '#'
-      tags: Full-time
-      date: 2018.03 - 2019.03
-      role: Backend Developer
-      location: Beijing
+      tags: Full time
+      date: 2023.07 - Present
+      role: Senior Manager
+      location: Remote
       description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
+        Architecture design and implementation for Cloud and Kubernetes based solutions. Python and Java development for APIs and workflows. Lifecycle and infrastructure management (CI & IaC) with implementations in three of the main cloud providers (AWS, Azure and GCP). Technical and quality advisory.
 
-    - company: First Company
-      link:
-      tags: Part-time, remote
-      date: 2017.03 - 2018.03
-      role: Backend Developer
-      location: Beijing
+    - company: Taller Technologies
+      link: https://taller.us/
+      tags: Contractor for PwC account
+      date: 2020.10 - 2023.06
+      role: Devops Technical Lead
+      location: Remote
       description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
+        Technical lead of a devops team working on platforms and integrations for the client's company data platform. Architecture design and implementation for Cloud based and Kubernetes based solutions. Python and Java development for backends and workflows. Lifecycle and infrastructure management.
 
-project:
-  show: true
-  order: 3
-  title: Projects
-  description: |
-    The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
+    - company: Flugel
+      link: https://flugel.it
+      tags: Contractor
+      date: 2020.03 - 2020.10
+      role: DevOps Engineer
+      location: Remote
+      description: |
+        Develop and maintain CICD pipelines and cloud infrastructure for company providing enterprise chat and support services. Tasks included deployment automation, scripting, IaC, observability and production support.
 
-    In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
+    - company: DataArt
+      link: https://www.dataart.com
+      tags: Full time
+      date: 2019.01 - 2020.03
+      role: Senior DevOps Engineer
+      location: Buenos Aires
+      description: |
+        Develop and maintain CICD, IaC, automation and configuration management using Azure devops, teamcity, jenkins, terraform and ARM templates. Architecting, implementation and management of projects infrastructure built using cloud services in Azure and Google Cloud Platform. Working with containerized apps running in kubernetes and deployed with helm. Management of versioning and continuous integration tools such as TFS, VSTS, GitHub.
 
-    The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
-
-  items:
-    - name: Personal project
+    - company: EY
       link: '#'
-      tags:
-      date: 2015 - 2017
+      tags: Full time
+      date: 2017.12 - 2019.01
+      role: Senior Cloud Engineer
+      location: Buenos Aires
       description: |
-        Personal project description...
-        + First
-        + Second
+        Provide subject matter expertise to internal and external projects, in relation to virtualization, networking, web application firewall, IaaS, PaaS and SaaS solutions in Microsoft Azure cloud, scripting, server and configuration management and others. Level 3 (engineering support) and Level 4 (engineering development) for all solutions produced by the team. Virtual networking, routing and connectivity management and support.
 
-    - name: OSS project
-      link:
-      tags: committer
-      date:
+    - company: Accenture
+      link: '#'
+      tags: Full time
+      date: 2015.07 - 2017.12
+      role: Tech Architecture Analyst
+      location: Buenos Aires
       description: |
-        OSS project description...
-        + First
-        + Second
+        Provision, management, maintenance, and 3rd level production support of infrastructures for worldwide, web and mobile applications. Windows server administration. Planning, automating and optimizing lifecycle integration, building and deployment processes. Versioning and continuous integration tools (TFS, VSTS, GitHub, Octopus, Jenkins) management. Migration of VMs infrastructure to Cloud AWS and Microsoft Azure, IaaS & PaaS models. Virtual networking, routing and connectivity management and support.
 
 skill:
   show: true
-  order: 4
+  order: 3
   title: Skills
   description: |
-    The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
-
-    The skills section can include both hard skills and soft skills. Hard skills are specific technical abilities or knowledge related to a particular job or industry, such as proficiency in programming languages or experience with certain software programs. Soft skills are more general personal traits and abilities, such as communication skills, leadership, problem-solving, or teamwork.
-
-    When crafting your skills section, it's important to tailor it to the specific job you are applying for, and only include skills that are relevant to the position. This can help catch the attention of the hiring manager and demonstrate that you have the qualifications necessary to succeed in the role.
-
-    There are multiple ways to present your skills here. One way is to show them in a rating format. Another way is to group them together. Alternatively, you can use markdown to format it in a way that you prefer.
+    Key skills, abilities and knowledge
 
   items:
-    - name: Skill A
+    - name: DevOps & CICD
       level: 5
-    - name: Skill B
+    - name: Cloud Architecture
+      level: 5
+    - name: IaC
+      level: 5
+    - name: Virtualization/Containers
+      level: 4.5
+    - name: Networking
       level: 4
-    - name: Skill C
+    - name: Scripting/Automation
+      level: 4
+    - name: Development
       level: 3
-    - name: Skill D
-      level: 4
-    - name: Skill E
-      level: 3
-    - name: Skill F
-      level: 1
-    - name: Skill G
-      level: 4
-    - name: Skill H
-      level: 4
-    - name: Skill I
-      level: 3
+      
 
   groups:
-    - name: Group A Skills
+    - name: Technologies
       item:
         - Skill A
         - Skill B
