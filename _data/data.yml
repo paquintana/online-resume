@@ -10,7 +10,7 @@ contact:
   location: Buenos Aires, Argentina # location
   email: pablobhn@gmail.com    # email address
   phone: +54-011-5747-9011 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  # website: example.com     # site URL without schema, like example.com, will automatically prepand "https://"
+  website: www.linkedin.com/in/paquintana     # site URL without schema, like example.com, will automatically prepand "https://"
 
   # gender:                  # gender or pronoun
   # birthday:                # birthday
@@ -174,10 +174,11 @@ skill:
     - name: Critical thinking
       level: 5
 
-patent:
+skill:
   show: true
   order: 4
   title: Technologies
+  icon: 
   description: |
     Most used technologies
 
