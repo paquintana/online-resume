@@ -174,7 +174,7 @@ skill:
     - name: Critical thinking
       level: 5
 
-skill:
+technologies:
   show: true
   order: 4
   title: Technologies
