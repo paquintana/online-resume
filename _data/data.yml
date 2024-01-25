@@ -243,7 +243,7 @@ education:
 
 language:
   show: true
-  order: 6
+  order: 7
   title: Languages
   description: 
   items:
@@ -251,3 +251,18 @@ language:
       level: Native
     - idiom: English
       level: Professional
+
+certificate:
+  show: true
+  order: 6
+  title: Certificates
+  description: |
+    Obtained certifications
+
+  items:
+    - name: Google Professional Cloud Architect
+      issuer: by Google
+      date: 2020 (Expired 2022)
+      link: 'https://www.credential.net/1ccfd2d0-563e-40e4-bfbb-e2ddad0bde81?key=6931e3e946739ffe919df931a138608950426fe1c648906d8389ca16abfe6ad4'
+      description: |
+        Credential ID 16393 Google Cloud Certified Professional Cloud Architect, issued by Kryterion, Inc
