@@ -89,7 +89,7 @@ profile:
 
 experience:
   show: true
-  order: 2
+  order: 3
   title: Experience
   description: |
     Work experiences
@@ -150,7 +150,7 @@ experience:
         Provision, management, maintenance, and 3rd level production support of infrastructures for worldwide, web and mobile applications. Windows server administration. Planning, automating, and optimizing lifecycle integration, building, and deployment processes. Versioning and continuous integration tools (TFS, VSTS, GitHub, Octopus, Jenkins) management. Migration of VM infrastructure to Cloud AWS and Microsoft Azure, IaaS & PaaS models. Virtual networking, routing, and connectivity management and support.
 
 skill:
-  show: true
+  show: false
   order: 4
   title: Skills
   description: |
@@ -178,7 +178,7 @@ skill:
 
 technologies:
   show: true
-  order: 3
+  order: 2
   title: Technologies
   icon: 
   description: |
