@@ -2,7 +2,7 @@ basic:
   name: Pablo Quintana               # name
   title: Software Engineer           # job title
   avatar:
-    show: true                       # show or hide avatar
+    show: false                       # show or hide avatar
     path: /assets/images/profile.png # avatar file path
 
 contact:
@@ -97,16 +97,16 @@ experience:
       link: '#'
       tags: Full time
       date: 2023.07 - Present
-      role: Senior Manager
+      role: Senior Software Engineer
       location: Remote
       description: |
-        Architecture design and implementation for Cloud and Kubernetes based solutions. Python and Java development for APIs and workflows. Lifecycle and infrastructure management (CI & IaC) with implementations in three of the main cloud providers (AWS, Azure and GCP). Technical and quality advisory.
+        Architecture design and implementation for Cloud based and Kubernetes based solutions. Python and Java development for backends and workflows. Lifecycle and infrastructure management (CI & IaC) with implementations in three of the main cloud providers (AWS, Azure and GCP). Technical and quality advisory.Architecture design and implementation for Cloud based and Kubernetes based solutions. Python and Java development for backends and workflows. Lifecycle and infrastructure management (CI & IaC) with implementations in three of the main cloud providers (AWS, Azure and GCP). Technical and quality advisory.
 
-    - company: Taller Technologies
-      link: https://taller.us/
-      tags: Contractor for PwC account
+    - company: PwC
+      link: '#'
+      tags: Contractor
       date: 2020.10 - 2023.06
-      role: Devops Technical Lead
+      role: Devops Tech Lead
       location: Remote
       description: |
         Technical lead of a devops team working on platforms and integrations for the client's company data platform. Architecture design and implementation for Cloud based and Kubernetes based solutions. Python and Java development for backends and workflows. Lifecycle and infrastructure management.
@@ -115,10 +115,10 @@ experience:
       link: https://flugel.it
       tags: Contractor
       date: 2020.03 - 2020.10
-      role: DevOps Engineer
+      role: Senior DevOps Engineer
       location: Remote
       description: |
-        Develop and maintain CICD pipelines and cloud infrastructure for company providing enterprise chat and support services. Tasks included deployment automation, scripting, IaC, observability and production support.
+        Develop and maintain CICD pipelines and cloud infrastructure for multichannel and contact center solutions. Tasks included deployment automation, scripting, IaC, observability, and production support.
 
     - company: DataArt
       link: https://www.dataart.com
@@ -127,7 +127,7 @@ experience:
       role: Senior DevOps Engineer
       location: Buenos Aires
       description: |
-        Develop and maintain CICD, IaC, automation and configuration management using Azure devops, teamcity, jenkins, terraform and ARM templates. Architecting, implementation and management of projects infrastructure built using cloud services in Azure and Google Cloud Platform. Working with containerized apps running in kubernetes and deployed with helm. Management of versioning and continuous integration tools such as TFS, VSTS, GitHub.
+        Develop and maintain CICD, IaC, automation, and configuration management using Azure devops, teamcity, jenkins, terraform, and ARM templates. Architecting, implementation, and management of project infrastructure built using cloud services in Azure and Google Cloud Platform. Working with containerized apps running in kubernetes and deployed with helm. Management of versioning and continuous integration tools such as TFS, VSTS, GitHub.
 
     - company: EY
       link: '#'
@@ -136,16 +136,16 @@ experience:
       role: Senior Cloud Engineer
       location: Buenos Aires
       description: |
-        Provide subject matter expertise to internal and external projects, in relation to virtualization, networking, web application firewall, IaaS, PaaS and SaaS solutions in Microsoft Azure cloud, scripting, server and configuration management and others. Level 3 (engineering support) and Level 4 (engineering development) for all solutions produced by the team. Virtual networking, routing and connectivity management and support.
+        Provide subject matter expertise to internal and external projects, concerning virtualization, networking, web application firewall, IaaS, PaaS, and SaaS solutions in Microsoft Azure cloud, scripting, server and configuration management, and others. Level 3 (engineering support) and Level 4 (engineering development) for all solutions produced by the team. Virtual networking, routing, and connectivity management and support.
 
     - company: Accenture
       link: '#'
       tags: Full time
       date: 2015.07 - 2017.12
-      role: Tech Architecture Analyst
+      role: Devops Engineer
       location: Buenos Aires
       description: |
-        Provision, management, maintenance, and 3rd level production support of infrastructures for worldwide, web and mobile applications. Windows server administration. Planning, automating and optimizing lifecycle integration, building and deployment processes. Versioning and continuous integration tools (TFS, VSTS, GitHub, Octopus, Jenkins) management. Migration of VMs infrastructure to Cloud AWS and Microsoft Azure, IaaS & PaaS models. Virtual networking, routing and connectivity management and support.
+        Provision, management, maintenance, and 3rd level production support of infrastructures for worldwide, web and mobile applications. Windows server administration. Planning, automating, and optimizing lifecycle integration, building, and deployment processes. Versioning and continuous integration tools (TFS, VSTS, GitHub, Octopus, Jenkins) management. Migration of VM infrastructure to Cloud AWS and Microsoft Azure, IaaS & PaaS models. Virtual networking, routing, and connectivity management and support.
 
 skill:
   show: true
@@ -180,7 +180,7 @@ technologies:
   title: Technologies
   icon: 
   description: |
-    Most used technologies
+    Preferred tech stack
 
   groups:
     - name: CICD
@@ -196,14 +196,12 @@ technologies:
     - name: Infrastructure as code
       item:
         - Terraform
-        - ARM
         - CloudFormation
         - Crossplane
     - name: Scripting/Development
       item:
         - Python
         - Java
-        - Powershell
     - name: Virtualization/Containers
       item:
         - Kubernetes (EKS, AKS)
@@ -215,7 +213,6 @@ technologies:
       item:
         - Datadog
         - Prometheus/Grafana
-        - ELK
         
 education:
   show: true
