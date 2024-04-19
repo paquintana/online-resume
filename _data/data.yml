@@ -149,7 +149,7 @@ experience:
 
 skill:
   show: true
-  order: 3
+  order: 4
   title: Skills
   description: |
     Top skills, abilities and knowledge
@@ -176,7 +176,7 @@ skill:
 
 technologies:
   show: true
-  order: 4
+  order: 3
   title: Technologies
   icon: 
   description: |
