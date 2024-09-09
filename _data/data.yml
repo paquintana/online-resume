@@ -202,7 +202,7 @@ technologies:
       item:
         - Python
         - Java
-    - name: Virtualization/Containers
+    - name: Containers/K8s
       item:
         - Kubernetes (EKS, AKS)
         - Kustomize
