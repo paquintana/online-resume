@@ -187,7 +187,7 @@ technologies:
       item:
         - Python
         - Java
-    - name: Container & Orchestration
+    - name: Containers & Orchestration
       item:
         - Kubernetes (EKS, AKS)
         - Kustomize
