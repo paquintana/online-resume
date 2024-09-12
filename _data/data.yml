@@ -199,7 +199,7 @@ technologies:
         - Azure Devops
         - Github Actions
         - Jenkins
-    - name: Infrastructure as code
+    - name: Infrastructure as Code
       item:
         - Terraform
         - CloudFormation
@@ -212,7 +212,8 @@ technologies:
     - name: Observability
       item:
         - Datadog
-        - Prometheus/Grafana
+        - Prometheus
+        - Grafana
         
 education:
   show: true
