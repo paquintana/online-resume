@@ -83,7 +83,7 @@ profile:
   order: 1
   title: About
   description: |
-    I'm an IT professional with a broad range of technical skills and more than 9 years of experience in different roles such as DevOps Engineer, Tech Lead, and Cloud Architect. Although I am proficient in DevOps and I enjoy working on it, I am seeking a role that is not limited to operations but also allows me to contribute to architecting and building great products.
+    I'm an IT professional with 9+ years of experience in different roles such as DevOps Engineer, Tech Lead, Cloud Architect and Software Engineer. Despite my DevOps background, I am seeking a role that is not limited to operations but also allows me to contribute to architecting and building great products.
 
 experience:
   show: true
@@ -97,10 +97,10 @@ experience:
       link: '#'
       tags: Full time
       date: 2023.07 - Present
-      role: Senior Software Engineer
+      role: Software Engineer
       location: Remote
       description: |
-        Architecture design and implementation for Cloud based and Kubernetes based solutions. Python and Java development for backends and workflows. Lifecycle and infrastructure management (CI & IaC) with implementations in three of the main cloud providers (AWS, Azure and GCP). Technical and quality advisory.Architecture design and implementation for Cloud based and Kubernetes based solutions. Python and Java development for backends and workflows. Lifecycle and infrastructure management (CI & IaC) with implementations in three of the main cloud providers (AWS, Azure and GCP). Technical and quality advisory.
+        Architecture, design and implement infrastructure automation and developer experience solutions. Provide technical oversigh for implementations in Python and Java for APIs and distributed systems. Lifecycle and infrastructure management with implementations in main cloud providers (AWS, Azure and GCP).
 
     - company: PwC
       link: '#'
@@ -109,7 +109,7 @@ experience:
       role: Devops Tech Lead
       location: Remote
       description: |
-        Technical lead of a devops team working on platforms and integrations for the client's company data platform. Architecture design and implementation for Cloud based and Kubernetes based solutions. Python and Java development for backends and workflows. Lifecycle and infrastructure management.
+        Led a team of 5 engineers working on platforms and integrations for the client's company data platform. Architecture design and implementation for Cloud based and Kubernetes based solutions. Python and Java development for backends and workflows. Lifecycle and infrastructure management.
 
     - company: Flugel
       link: https://flugel.it
@@ -183,32 +183,32 @@ technologies:
     Preferred tech stack
 
   groups:
+    - name: Development/Scripting
+      item:
+        - Python
+        - Java
+    - name: Container & Orchestration
+      item:
+        - Kubernetes (EKS, AKS)
+        - Kustomize
+        - Helm
+        - Istio
+        - Knative
     - name: CICD
       item:
         - Azure Devops
         - Github Actions
         - Jenkins
-    - name: Cloud providers
-      item:
-        - Azure
-        - AWS
-        - GCP
     - name: Infrastructure as code
       item:
         - Terraform
         - CloudFormation
         - Crossplane
-    - name: Scripting/Development
+    - name: Cloud providers
       item:
-        - Python
-        - Java
-    - name: Containers/K8s
-      item:
-        - Kubernetes (EKS, AKS)
-        - Kustomize
-        - Helm & Helmfile
-        - Istio
-        - Knative
+        - Azure
+        - AWS
+        - GCP
     - name: Observability
       item:
         - Datadog
