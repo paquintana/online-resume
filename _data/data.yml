@@ -83,7 +83,7 @@ profile:
   order: 1
   title: About
   description: |
-    I’m an IT professional with 9+ years of experience in various roles such as DevOps Engineer, Tech Lead, Cloud Architect, and Software Engineer. Despite my DevOps background, I am seeking a role that is not limited to operations but also allows me to contribute to the architecture and development of great products.
+    I’m an IT professional with 10 years of experience in various roles such as DevOps Engineer, Tech Lead, Cloud Architect, and Software Engineer. Despite my DevOps background, I am seeking a role that is not limited to operations but also allows me to contribute to the architecture and development of great products.
 
 experience:
   show: true
@@ -97,10 +97,10 @@ experience:
       link: '#'
       tags: Full time
       date: 2023.07 - Present
-      role: Software Engineer
+      role: Tech Lead
       location: Remote
       description: |
-        Architecture, design and implement infrastructure automation and developer experience solutions. Provide technical oversigh for implementations in Python and Java for APIs and distributed systems. Lifecycle and infrastructure management with implementations in main cloud providers (AWS, Azure and GCP).
+        Lead the architecture and implementation of the company’s Developer Portal, overseeing integrations across multiple products, event-based workflows, and orchestration using a tech stack of Python, K8s, Temporal, Istio, major cloud providers, and various SaaS vendors like ServiceNow, Port, DataDog. Provide technical guidance, code reviews, and oversight for the team, ensuring high-quality implementations. Collaborate with product managers, operations, and other teams during planning and execution.
 
     - company: PwC
       link: '#'
@@ -187,23 +187,23 @@ technologies:
       item:
         - Python
         - Java
-    - name: Containers & Orchestration
+    - name: Containers
       item:
-        - Kubernetes (EKS, AKS)
-        - Kustomize
-        - Helm
+        - Docker
+        - Kubernetes
+        - Helm/Helmfile
         - Istio
         - Knative
     - name: CICD
       item:
-        - Azure Devops
         - Github Actions
+        - Azure Devops
         - Jenkins
     - name: Infrastructure as Code
       item:
         - Terraform
+        - Bicep
         - CloudFormation
-        - Crossplane
     - name: Cloud providers
       item:
         - Azure
@@ -248,7 +248,9 @@ language:
     - idiom: Spanish
       level: Native
     - idiom: English
-      level: Professional
+      level: Advanced
+    - idiom: French
+      level: Basic
 
 certificate:
   show: true
